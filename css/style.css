@@ -1,0 +1,110 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #6b35ff;
+    /* background-color: linear-gradient(90deg, rgba(5,161,193,1) 0%, rgba(34,34,175,1) 57%, rgba(38,32,150,1) 100%); */
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    padding: 35px;
+    margin: 0px auto;
+    max-width: 1350px;
+    width: 100%;
+    height: 100%;
+}
+.nav-content {
+    display: flex;
+    gap: 20;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0px 25px;
+}
+.nav-content a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.btn-nav {
+    color: black !important;
+    background-color: rgb(26, 24, 24);
+    padding: 14px;
+    width: 213px;
+}
+.btn-nav span {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.head-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+
+}
+.col-5 {
+    max-width: 1200px;
+    color: white;
+    width: 415px;
+    size: 50px;
+}
+.col-5 h1 {
+    font-size: 75px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.col-5 p {
+    font-size: 21px;
+    padding-bottom: 12px;
+}
+.head-btn {
+    color: black !important;
+    background-color: rgb(29, 26, 26);
+    padding: 14px;
+    width: 178px;
+    /* margin-left: 274px; */
+}
+.head-btn span {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.col-6 img {
+    height: 504px;
+    width: 750px;
+}
+/* column */
+.col-row {
+    max-width: 1200px;
+    margin: -65px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.column {
+    display: grid;
+    flex: 1;
+    padding: 28px;
+    justify-content: center;
+    border: 1px solid;
+    color: #ffffff;
+}
+.column h4 {
+    color: rgb(41, 245, 228);
+
+}
+.column p{
+    text-decoration: underline;
+    padding-top: 10px;
+}
